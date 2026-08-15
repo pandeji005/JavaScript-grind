@@ -18,16 +18,18 @@ const id = Symbol('123') //returns Symbol type
 // gives uniques => used in frontend react and all
 
 //array
-const hero = ["Ddc","Msrvel"]
+const hero = ["Ddc","Msrvel"] //object type
 
 //object
 
-let newObj = {
+let newObj = { //object type
     name: "Amogh",
     age: 22,
 }
 //function as variable
-const MyFunction  = function(){
+const MyFunction  = function(){ //object function type
     console.log("Hello! world");
 }
+
+// console.log(MyFunction);
 
